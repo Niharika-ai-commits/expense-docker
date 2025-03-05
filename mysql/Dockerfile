@@ -1,3 +1,3 @@
 FROM mysql:8.0
 ENV MYSQL_ROOOT_PASSWORD=ExpenseApp@1
-COPY *.sql /docker-entrypoint-initb.d
+COPY *.sql /docker-entrypoint-initdb.d
